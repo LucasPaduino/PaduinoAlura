@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçalho {
+background-color: rgb(0, 0, 0);
+color: white;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 24px 0;
+font-size: 24px;
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.cabeçalho-imagem{
+width: 10% ;
+}
+
+.cabeçalho-imagem-item{
+display: inline-block;
+margin: 0 16px;
+}
+
+.selecione-item{
+background-image: linear-gradient(#D9D9D9);
+color: rgb(0, 0, 0);
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 24px 0;
+font-size: 24px;
+font-family: 'Bebas Neue', sans-serif;
+}
+
+.imagem-dividida{
+background-color: black;
+.promoçao-camisa{
+    width: 50%;
+}
+.tenis-momentos{
+    width: 50%;
+}
+display: flex;
+}
